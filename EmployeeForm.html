@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmployeeRegistrationForm</title>
+
+    <style>
+        
+        th{
+            font-size: 30px;            
+        }
+
+        table{
+            padding: 5px;
+            border-radius: 15px;
+            width: 100vh;
+        }
+
+        td{
+            padding: 10px;
+        }
+        tr{
+            padding: 10px;
+        }
+
+        #submit{
+            font-weight: bold;
+            font-size: 10px;
+        }
+        
+        #submit:hover{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="" method="">
+        <table border="3" align="center">
+            <th align="center" colspan="2">EmployeeRegistrationForm</th>
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" placeholder="First Name" required></td>
+            </tr>
+
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" placeholder="Last Name" required></td>
+            </tr>
+
+            <tr>
+                <td>Email id:</td>
+                <td><input type="email" placeholder="Email id" required></td>
+            </tr>
+
+            <tr>
+                <td>Mobile No:</td>
+                <td><input type="number" required></td>
+            </tr>
+
+            <tr>
+                <td>DOB:</td>
+                <td><input type="date" required></td>
+            </tr>
+
+            <tr>
+                <td>Gender:</td>
+                <td><input type="radio" name="gender" required>Male
+                    <input type="radio" name="gender" required>Female
+                    <input type="radio" name="gender" required>Other</td>
+
+            </tr>
+
+            <tr>
+                <td>Address:</td>
+                <td><textarea required></textarea></td>
+            </tr>
+
+            <tr>
+                <td>Education:</td>
+                <td><input type="checkbox">10th
+                <input type="checkbox">12th
+                <input type="checkbox">diploma
+                <input type="checkbox">Graduation</td>
+            </tr>
+
+            <tr>
+                <td>Skills</td>
+                <td><input type="checkbox">Java
+                <input type="checkbox">Full Stack developer
+                <input type="checkbox">Python</td>  
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center"><input type="submit" id="submit" value="submit"></td>
+            </tr>
+
+        </table>
+
+
+    </form>
+    
+</body>
+</html>
